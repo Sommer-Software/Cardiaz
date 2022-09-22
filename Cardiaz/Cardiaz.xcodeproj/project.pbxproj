@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF72BD228DCDCB900033768 /* CardiazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BD128DCDCB900033768 /* CardiazApp.swift */; };
+		2FF72BD428DCDCB900033768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BD328DCDCB900033768 /* ContentView.swift */; };
+		2FF72BD628DCDCBA00033768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF72BD528DCDCBA00033768 /* Assets.xcassets */; };
+		2FF72BD928DCDCBA00033768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF72BD828DCDCBA00033768 /* Preview Assets.xcassets */; };
+		2FF72BE328DCDCBA00033768 /* CardiazTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BE228DCDCBA00033768 /* CardiazTests.swift */; };
+		2FF72BED28DCDCBA00033768 /* CardiazUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BEC28DCDCBA00033768 /* CardiazUITests.swift */; };
+		2FF72BEF28DCDCBA00033768 /* CardiazUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BEE28DCDCBA00033768 /* CardiazUITestsLaunchTests.swift */; };
+		2FF72BFC28DCE12700033768 /* WorkoutSelectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BFB28DCE12700033768 /* WorkoutSelectRow.swift */; };
+		2FF72BFE28DCE16900033768 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BFD28DCE16900033768 /* Workout.swift */; };
+		2FF72C0028DCE3EC00033768 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72BFF28DCE3EC00033768 /* ModelData.swift */; };
+		2FF72C0228DCE49B00033768 /* workoutTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FF72C0128DCE49B00033768 /* workoutTypes.json */; };
+		2FF72C0528DCE84400033768 /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72C0428DCE84400033768 /* WorkoutList.swift */; };
+		2FF72C0728DCE93100033768 /* WorkoutDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF72C0628DCE93100033768 /* WorkoutDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF72BDF28DCDCBA00033768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF72BC628DCDCB900033768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF72BCD28DCDCB900033768;
+			remoteInfo = Cardiaz;
+		};
+		2FF72BE928DCDCBA00033768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF72BC628DCDCB900033768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF72BCD28DCDCB900033768;
+			remoteInfo = Cardiaz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FF72BCE28DCDCB900033768 /* Cardiaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardiaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF72BD128DCDCB900033768 /* CardiazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiazApp.swift; sourceTree = "<group>"; };
+		2FF72BD328DCDCB900033768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FF72BD528DCDCBA00033768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF72BD828DCDCBA00033768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FF72BDE28DCDCBA00033768 /* CardiazTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardiazTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF72BE228DCDCBA00033768 /* CardiazTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiazTests.swift; sourceTree = "<group>"; };
+		2FF72BE828DCDCBA00033768 /* CardiazUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardiazUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF72BEC28DCDCBA00033768 /* CardiazUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiazUITests.swift; sourceTree = "<group>"; };
+		2FF72BEE28DCDCBA00033768 /* CardiazUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiazUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FF72BFB28DCE12700033768 /* WorkoutSelectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSelectRow.swift; sourceTree = "<group>"; };
+		2FF72BFD28DCE16900033768 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		2FF72BFF28DCE3EC00033768 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		2FF72C0128DCE49B00033768 /* workoutTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workoutTypes.json; sourceTree = "<group>"; };
+		2FF72C0428DCE84400033768 /* WorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		2FF72C0628DCE93100033768 /* WorkoutDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF72BCB28DCDCB900033768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF72BDB28DCDCBA00033768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF72BE528DCDCBA00033768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF72BC528DCDCB900033768 = {
+			isa = PBXGroup;
+			children = (
+				2FF72BD028DCDCB900033768 /* Cardiaz */,
+				2FF72BE128DCDCBA00033768 /* CardiazTests */,
+				2FF72BEB28DCDCBA00033768 /* CardiazUITests */,
+				2FF72BCF28DCDCB900033768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF72BCF28DCDCB900033768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF72BCE28DCDCB900033768 /* Cardiaz.app */,
+				2FF72BDE28DCDCBA00033768 /* CardiazTests.xctest */,
+				2FF72BE828DCDCBA00033768 /* CardiazUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF72BD028DCDCB900033768 /* Cardiaz */ = {
+			isa = PBXGroup;
+			children = (
+				2FF72BD128DCDCB900033768 /* CardiazApp.swift */,
+				2FF72C0128DCE49B00033768 /* workoutTypes.json */,
+				2FF72BD328DCDCB900033768 /* ContentView.swift */,
+				2FF72BD528DCDCBA00033768 /* Assets.xcassets */,
+				2FF72BD728DCDCBA00033768 /* Preview Content */,
+				2FF72BFB28DCE12700033768 /* WorkoutSelectRow.swift */,
+				2FF72BFD28DCE16900033768 /* Workout.swift */,
+				2FF72BFF28DCE3EC00033768 /* ModelData.swift */,
+				2FF72C0428DCE84400033768 /* WorkoutList.swift */,
+				2FF72C0628DCE93100033768 /* WorkoutDetails.swift */,
+			);
+			path = Cardiaz;
+			sourceTree = "<group>";
+		};
+		2FF72BD728DCDCBA00033768 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FF72BD828DCDCBA00033768 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FF72BE128DCDCBA00033768 /* CardiazTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF72BE228DCDCBA00033768 /* CardiazTests.swift */,
+			);
+			path = CardiazTests;
+			sourceTree = "<group>";
+		};
+		2FF72BEB28DCDCBA00033768 /* CardiazUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF72BEC28DCDCBA00033768 /* CardiazUITests.swift */,
+				2FF72BEE28DCDCBA00033768 /* CardiazUITestsLaunchTests.swift */,
+			);
+			path = CardiazUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF72BCD28DCDCB900033768 /* Cardiaz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF72BF228DCDCBA00033768 /* Build configuration list for PBXNativeTarget "Cardiaz" */;
+			buildPhases = (
+				2FF72BCA28DCDCB900033768 /* Sources */,
+				2FF72BCB28DCDCB900033768 /* Frameworks */,
+				2FF72BCC28DCDCB900033768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardiaz;
+			productName = Cardiaz;
+			productReference = 2FF72BCE28DCDCB900033768 /* Cardiaz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF72BDD28DCDCBA00033768 /* CardiazTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF72BF528DCDCBA00033768 /* Build configuration list for PBXNativeTarget "CardiazTests" */;
+			buildPhases = (
+				2FF72BDA28DCDCBA00033768 /* Sources */,
+				2FF72BDB28DCDCBA00033768 /* Frameworks */,
+				2FF72BDC28DCDCBA00033768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF72BE028DCDCBA00033768 /* PBXTargetDependency */,
+			);
+			name = CardiazTests;
+			productName = CardiazTests;
+			productReference = 2FF72BDE28DCDCBA00033768 /* CardiazTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FF72BE728DCDCBA00033768 /* CardiazUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF72BF828DCDCBA00033768 /* Build configuration list for PBXNativeTarget "CardiazUITests" */;
+			buildPhases = (
+				2FF72BE428DCDCBA00033768 /* Sources */,
+				2FF72BE528DCDCBA00033768 /* Frameworks */,
+				2FF72BE628DCDCBA00033768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF72BEA28DCDCBA00033768 /* PBXTargetDependency */,
+			);
+			name = CardiazUITests;
+			productName = CardiazUITests;
+			productReference = 2FF72BE828DCDCBA00033768 /* CardiazUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF72BC628DCDCB900033768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2FF72BCD28DCDCB900033768 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2FF72BDD28DCDCBA00033768 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2FF72BCD28DCDCB900033768;
+					};
+					2FF72BE728DCDCBA00033768 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2FF72BCD28DCDCB900033768;
+					};
+				};
+			};
+			buildConfigurationList = 2FF72BC928DCDCB900033768 /* Build configuration list for PBXProject "Cardiaz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FF72BC528DCDCB900033768;
+			productRefGroup = 2FF72BCF28DCDCB900033768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF72BCD28DCDCB900033768 /* Cardiaz */,
+				2FF72BDD28DCDCBA00033768 /* CardiazTests */,
+				2FF72BE728DCDCBA00033768 /* CardiazUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF72BCC28DCDCB900033768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF72BD928DCDCBA00033768 /* Preview Assets.xcassets in Resources */,
+				2FF72BD628DCDCBA00033768 /* Assets.xcassets in Resources */,
+				2FF72C0228DCE49B00033768 /* workoutTypes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF72BDC28DCDCBA00033768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF72BE628DCDCBA00033768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF72BCA28DCDCB900033768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF72BD428DCDCB900033768 /* ContentView.swift in Sources */,
+				2FF72BD228DCDCB900033768 /* CardiazApp.swift in Sources */,
+				2FF72C0028DCE3EC00033768 /* ModelData.swift in Sources */,
+				2FF72C0528DCE84400033768 /* WorkoutList.swift in Sources */,
+				2FF72BFC28DCE12700033768 /* WorkoutSelectRow.swift in Sources */,
+				2FF72C0728DCE93100033768 /* WorkoutDetails.swift in Sources */,
+				2FF72BFE28DCE16900033768 /* Workout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF72BDA28DCDCBA00033768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF72BE328DCDCBA00033768 /* CardiazTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF72BE428DCDCBA00033768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF72BED28DCDCBA00033768 /* CardiazUITests.swift in Sources */,
+				2FF72BEF28DCDCBA00033768 /* CardiazUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF72BE028DCDCBA00033768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF72BCD28DCDCB900033768 /* Cardiaz */;
+			targetProxy = 2FF72BDF28DCDCBA00033768 /* PBXContainerItemProxy */;
+		};
+		2FF72BEA28DCDCBA00033768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF72BCD28DCDCB900033768 /* Cardiaz */;
+			targetProxy = 2FF72BE928DCDCBA00033768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FF72BF028DCDCBA00033768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FF72BF128DCDCBA00033768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF72BF328DCDCBA00033768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardiaz/Preview Content\"";
+				DEVELOPMENT_TEAM = 726A674YJY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SommerSoftware.Cardiaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FF72BF428DCDCBA00033768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardiaz/Preview Content\"";
+				DEVELOPMENT_TEAM = 726A674YJY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SommerSoftware.Cardiaz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FF72BF628DCDCBA00033768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 726A674YJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SommerSoftware.CardiazTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardiaz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardiaz";
+			};
+			name = Debug;
+		};
+		2FF72BF728DCDCBA00033768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 726A674YJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SommerSoftware.CardiazTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardiaz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardiaz";
+			};
+			name = Release;
+		};
+		2FF72BF928DCDCBA00033768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 726A674YJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SommerSoftware.CardiazUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardiaz;
+			};
+			name = Debug;
+		};
+		2FF72BFA28DCDCBA00033768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 726A674YJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SommerSoftware.CardiazUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardiaz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF72BC928DCDCB900033768 /* Build configuration list for PBXProject "Cardiaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF72BF028DCDCBA00033768 /* Debug */,
+				2FF72BF128DCDCBA00033768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF72BF228DCDCBA00033768 /* Build configuration list for PBXNativeTarget "Cardiaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF72BF328DCDCBA00033768 /* Debug */,
+				2FF72BF428DCDCBA00033768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF72BF528DCDCBA00033768 /* Build configuration list for PBXNativeTarget "CardiazTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF72BF628DCDCBA00033768 /* Debug */,
+				2FF72BF728DCDCBA00033768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF72BF828DCDCBA00033768 /* Build configuration list for PBXNativeTarget "CardiazUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF72BF928DCDCBA00033768 /* Debug */,
+				2FF72BFA28DCDCBA00033768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF72BC628DCDCB900033768 /* Project object */;
+}

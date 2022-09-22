@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "name": "Run",
+        "iconName": "RunIcon"
+    },
+    {
+        "id": 1,
+        "name": "Long run",
+        "iconName": "RunIcon"
+    },
+    {
+        "id": 2,
+        "name": "Interval run",
+        "iconName": "RunIcon"
+    }
+]
